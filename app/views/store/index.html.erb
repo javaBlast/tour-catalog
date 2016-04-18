@@ -1,0 +1,22 @@
+
+<% if notice %>
+    <p id="notice"><%= notice %></p>
+<% end %>
+
+
+<h1>Your Pragmatic Catalog</h1>
+<% cache ['store', Hotel.latest] do %>
+    <% @hotels.each do |hotel| %>
+        <% cache ['entry', hotel] do %>
+            <div class="entry">
+              <%= image_tag(hotel.image_url) %>
+              <h3><%= hotel.title %></h3>
+              <%= sanitize(hotel.description) %>
+              <div class="price_line">
+                <span class="price"><%= number_to_currency(hotel.price) %></span>
+              </div>
+            </div>
+
+        <% end %>
+    <% end %>
+<% end %>
