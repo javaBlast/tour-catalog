@@ -1,29 +1,22 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Listing Hotels</h1>
+<div class="col-sm-12">
+  <%= link_to 'New hotel', new_hotel_path, class: "btn btn-warning btn-group btn-group-justified" %>
+</div>
+<% @hotels.each do |hotel| %>
+    <div class="col-lg-3">
 
+      <%= image_tag hotel.image_url, class: "img-thumbnail",
+                    width: "200px", height: "150px" %>
+      <h3>            <%= hotel.title %></h3>
+      <p> <%= truncate(strip_tags(hotel.description),
+                       length: 80) %></p>
+      <p>          <%= link_to 'Show', hotel, class: "btn btn-default" %>
+        <%= link_to 'Edit', edit_hotel_path(hotel), class: "btn btn-default" %>
+        <%= link_to 'Destroy', hotel, method: :delete,
+                    data: {confirm: 'Are you sure?'}, class: "btn btn-default" %>
 
-<table>
-  <% @hotels.each do |hotel| %>
-      <tr class="<%= cycle('list_line_odd', 'list_line_even') %>">
-        <td>
-          <%= image_tag(hotel.image_url, class: 'list_image') %>
-        </td>
-        <td class="list_description">
-          <dl>
-            <dt><%= hotel.title %></dt>
-            <dd><%= truncate(strip_tags(hotel.description),
-                             length: 80) %></dd>
-          </dl>
-        </td>
-        <td class="list_actions">
-          <%= link_to 'Show', hotel %><br/>
-          <%= link_to 'Edit', edit_hotel_path(hotel) %><br/>
-          <%= link_to 'Destroy', hotel, method: :delete,
-                      data: { confirm: 'Are you sure?' } %>
-        </td>
-      </tr>
-  <% end %>
-</table>
-<br />
-<%= link_to 'New hotel', new_hotel_path %>
+      </p>
+
+    </div>
+<% end %>
