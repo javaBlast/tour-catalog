@@ -13,4 +13,7 @@
 //= require jquery_ujs
 //= require bootstrap-sprockets
 //= require turbolinks
+//= require carousel
+//= require livereload
 //= require_tree .
+
