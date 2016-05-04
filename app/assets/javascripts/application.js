@@ -15,5 +15,6 @@
 //= require turbolinks
 //= require livereload
 //= require mdb
+//= require mdb.min
 //= require_tree .
 

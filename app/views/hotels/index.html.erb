@@ -1,22 +1,51 @@
-<p id="notice"><%= notice %></p>
 
-<div class="col-sm-12">
-  <%= link_to 'New hotel', new_hotel_path, class: "btn btn-warning btn-group btn-group-justified" %>
-</div>
-<% @hotels.each do |hotel| %>
-    <div class="col-lg-3">
 
-      <%= image_tag hotel.image_url, class: "img-thumbnail",
-                    width: "200px", height: "150px" %>
-      <h3>            <%= hotel.title %></h3>
-      <p> <%= truncate(strip_tags(hotel.description),
-                       length: 80) %></p>
-      <p>          <%= link_to 'Show', hotel, class: "btn btn-default" %>
-        <%= link_to 'Edit', edit_hotel_path(hotel), class: "btn btn-default" %>
-        <%= link_to 'Destroy', hotel, method: :delete,
-                    data: {confirm: 'Are you sure?'}, class: "btn btn-default" %>
 
-      </p>
-
-    </div>
+<% if notice %>
+    <p id="notice">
+      <%= notice %>
+    </p>
 <% end %>
+<!--catalog-->
+<div class="row vcenter">
+  <%= link_to 'New hotel', new_hotel_path, class: "btn btn-warning" %>
+
+  <% cache ['store', Hotel.latest] do %>
+      <% @hotels.each do |hotel| %>
+          <% cache ['entry', hotel] do %>
+              <div class="col-sm-4">
+                <!--Image Card-->
+                <div class="card hoverable">
+                  <div class="card-image">
+                    <div class="view overlay hm-white-slight z-depth-1">
+                      <%= image_tag hotel.image_url, class: "img-responsive" %>
+                      <a href="#">
+                        <div class="mask waves-effect"></div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="card-content">
+                    <h3>            <%= hotel.title %></h3>
+                    <p> <%= truncate(strip_tags(hotel.description),
+                                     length: 80) %></p>
+
+                  </div>
+                  <!--Buttons-->
+                  <div class="card-btn text-center">
+                    <p>          <%= link_to 'Show', hotel, class: "btn btn-default" %>
+                      <%= link_to 'Edit', edit_hotel_path(hotel), class: "btn btn-default" %>
+                      <%= link_to 'Destroy', hotel, method: :delete,
+                                  data: {confirm: 'Are you sure?'}, class: "btn btn-default" %>
+
+                    </p>
+                  </div>
+                  <!--/.Buttons-->
+                </div>
+                <!--Image Card-->
+              </div>
+          <% end %>
+      <% end %>
+  <% end %>
+  <!--Image Card-->
+</div>
+<!--/.catalog-->

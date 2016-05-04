@@ -2,32 +2,37 @@
 <html>
 
 <head>
-    <title>Pragprog Books Online Store</title>
-    <%= stylesheet_link_tag "application", media: "all",
-    "data-turbolinks-track" => true %>
-        <%= javascript_include_tag "application",
-    "data-turbolinks-track" => true %>
-            <%= csrf_meta_tag %>
+  <title><%= full_title(yield(:title)) %></title>
+  <%= stylesheet_link_tag "application", media: "all",
+                          "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application",
+                             "data-turbolinks-track" => true %>
+  <%= csrf_meta_tag %>
+  <!-- Material Design Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
 </head>
 
 <body class=" <%= controller.controller_name %> ">
-    <!--Navigation-->
-    <header>
-        <%= render('layouts/navbar') %>
-    </header>
-    <!--/.Navigation-->
-    <main>
-        <!--Main Container-->
-        <div class="container">
-            <!-- carousel -->
-            <%= render('layouts/carousel') %>
-                <!-- /.carousel -->
-                <div class="divider-new">Приятного отдыха!</div>
-                        <%= yield %>
-                <%= render('layouts/footer.html.erb') %>
-        </div>
-        <!--/.Main Container-->
-    </main>
+<!--Navigation-->
+<header>
+  <%= render('layouts/navbar') %>
+</header>
+<!--/.Navigation-->
+<main>
+  <!--Main Container-->
+  <div class="container">
+    <!-- carousel -->
+    <%= render('layouts/carousel') %>
+    <!-- /.carousel -->
+    <div class="divider-new">Приятного отдыха!</div>
+    <%= yield %>
+    <%= render('layouts/footer.html.erb') %>
+  </div>
+  <!--/.Main Container-->
+</main>
 
 </body>
 

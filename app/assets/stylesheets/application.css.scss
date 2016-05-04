@@ -1,7 +1,9 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
-
-
+@import "mdb.css";
+@import "custom";
+@import "font-awesome.min";
+@import "mdb.min";
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
@@ -13,9 +15,11 @@
  * compiled file so the styles you add here take precedence over styles defined in any styles
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
+
+ *= icons
+ *= font-awesome.min
  *= mdb
  *= mdb.min
- *= custom
  *= jquery
  *= custom
  *= require_tree .
@@ -23,35 +27,14 @@
  *=
  */
 
- p {
-    font-size: 1rem;
-    line-height: 1.8;
-    font-weight: 300;
+@media only screen and (min-width: 1200px) {
+  /* line 13, D:/DEV/tour-catalog/app/assets/stylesheets/mdb.min.css */
+  html {
+    font-size: 15px;
+  }
 }
-
-.navbar{
-    margin-bottom: 0;
+/* line 13, D:/DEV/tour-catalog/app/assets/stylesheets/mdb.min.css */
+p, h3 {
+  font-size: 1rem;
+  line-height: 1.8;
 }
-.card {
-    position: relative;
-    overflow: hidden;
-    margin: 0.5rem 0 1rem 0;
-    background-color: #fff;
-    transition: box-shadow .25s;
-    border-radius: 2px;
-}
-
-.btn {
-    display: block;
-}
-
-.vcenter {
-    display: table-footer-group;
-    float: none;
-    vertical-align: middle;
-}
-
-footer.page-footer{
-        display: block;
-}
-

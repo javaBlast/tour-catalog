@@ -16,6 +16,13 @@ p {
     border-radius: 2px;
 }
 
+
+
+p {
+    font-size: 1.25rem;
+    line-height: 1.8;
+}
+
 .btn {
     display: block;
 }
@@ -29,4 +36,3 @@ p {
 footer.page-footer{
         display: block;
 }
-

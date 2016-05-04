@@ -1,11 +1,10 @@
-     Prefix Verb   URI Pattern                Controller#Action
-store_index GET    /store/index(.:format)     store#index
-     hotels GET    /hotels(.:format)          hotels#index
-            POST   /hotels(.:format)          hotels#create
-  new_hotel GET    /hotels/new(.:format)      hotels#new
- edit_hotel GET    /hotels/:id/edit(.:format) hotels#edit
-      hotel GET    /hotels/:id(.:format)      hotels#show
-            PATCH  /hotels/:id(.:format)      hotels#update
-            PUT    /hotels/:id(.:format)      hotels#update
-            DELETE /hotels/:id(.:format)      hotels#destroy
-      store GET    /                          store#index
+    Prefix Verb   URI Pattern                Controller#Action
+    hotels GET    /hotels(.:format)          hotels#index
+           POST   /hotels(.:format)          hotels#create
+ new_hotel GET    /hotels/new(.:format)      hotels#new
+edit_hotel GET    /hotels/:id/edit(.:format) hotels#edit
+     hotel GET    /hotels/:id(.:format)      hotels#show
+           PATCH  /hotels/:id(.:format)      hotels#update
+           PUT    /hotels/:id(.:format)      hotels#update
+           DELETE /hotels/:id(.:format)      hotels#destroy
+      root GET    /                          hotels#index
