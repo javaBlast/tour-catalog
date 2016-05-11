@@ -32,9 +32,42 @@
   html {
     font-size: 15px;
   }
+  .container {
+      width: 1140px;
+  }
 }
 /* line 13, D:/DEV/tour-catalog/app/assets/stylesheets/mdb.min.css */
 p, h3 {
   font-size: 1rem;
   line-height: 1.8;
+}
+
+body {
+  background: url(cutwall.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+#main_container {
+  background-color: (160, 236, 229, 0.12);
+}
+.full {
+  background: url(cutwall.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+//#gradient {
+//  background-image: url(gradient.jpg);
+//  background-repeat: no-repeat;
+//  background-position: inherit;
+//  height: 41px;
+//  opacity: 0.35;
+//}
+
+footer.page-footer {
+  margin-top: 0px;
 }

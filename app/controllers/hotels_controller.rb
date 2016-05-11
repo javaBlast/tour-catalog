@@ -7,6 +7,11 @@ class HotelsController < ApplicationController
     @hotels = Hotel.all
   end
 
+  # GET /hotels/list
+  def list
+    @hotels = Hotel.all
+  end
+
   # GET /hotels/1
   # GET /hotels/1.json
   def show

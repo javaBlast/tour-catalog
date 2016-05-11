@@ -4,8 +4,14 @@
   <div class="col-md-5 vcenter">
     <div class="panel-group">
       <div class="panel panel-default">
-        <div class="panel-heading">Panel Heading</div>
-        <div class="panel-body">Panel Content</div>
+        <div class="panel-heading"><h3>Кирилловка: базы отдыха, пансионаты 2016</h3></div>
+        <div class="panel-body">Курортная зона отдыха Кирилловка — климатический и бальнеогрязевой приморский курорт Украины (юг Запорожской области), расположенный на берегу Азовского моря, Утлюкского и Молочного лиманов, в 42 км от станции Акимовка Приднепровской железной дороги и в 65 км от Мелитополя.
+
+Сегодня Кирилловка — это современный поселок городского типа, насчитывающий 3,5 тыс. жителей и две прилегающие косы — Пересыпь и Федотова.
+
+По официальным данным, за лето Кирилловку посещают более 30000 человек.
+
+К услугам отдыхающих — около 360 баз отдыха и 18 детских оздоровительных учреждений, расположенных как на косах, так и в самом пгт. Кирилловка. Здесь можно найти отдых на любой вкус и по своим финансовым возможностям — от «цивилизованных» баз отдыха с многоэтажными корпусами и питанием, до отдыха в палаточном городке или частном секторе.</div>
       </div>
     </div>
   </div>
@@ -14,19 +20,13 @@
   <div class="col-md-5 vcenter">
     <!-- Carousel -->
     <div id="carousel1" class="carousel slide carousel-fade hoverable">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#carousel1" data-slide-to="0" class="active">
-        </li>
-        <li data-target="#carousel1" data-slide-to="1"></li>
-        <li data-target="#carousel1" data-slide-to="2"></li>
-      </ol>
+      
       <!-- Wrapper for slides -->
       <div class="carousel-inner z-depth-2" role="listbox">
         <!-- First slide -->
         <div class="item active">
           <div class="view overlay hm-blue-slight">
-            <a><img src="http://mdbootstrap.com/images/slides/slide%20(7).jpg" class="img-responsive" alt="slide1">
+            <a><img src="http://www.pixelstalk.net/wp-content/uploads/2015/05/Boat-on-the-Blue-Sea-Wallpaper-HD.jpg" class="img-responsive" style="height: 500px; width: 100%;" alt="slide1">
               <div class="mask waves-effect waves-light"></div>
             </a>
             <div class="carousel-caption hidden-xs">
@@ -42,9 +42,9 @@
         <div class="item">
           <div class="view overlay hm-blue-slight">
             <a>
-              <%= image_tag hotel.image_url, class: "img img-responsive" %>
-              
-              <div class="mask waves-effect waves-light"></div>
+              <%= image_tag hotel.image_url, class: "img-responsive", style: "height: 500px; width: 100%;" %>
+              <div class="mask waves-effect waves-light">
+              </div>
             </a>
             <div class="carousel-caption hidden-xs">
               <div class="animated fadeInDown">

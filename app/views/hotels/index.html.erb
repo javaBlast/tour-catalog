@@ -1,51 +1,49 @@
-
-
-
+<!-- carousel -->
+<%= render('layouts/carousel') %>
+<!-- /.carousel -->
 <% if notice %>
-    <p id="notice">
-      <%= notice %>
-    </p>
+<p id="notice">
+  <%= notice %>
+</p>
 <% end %>
 <!--catalog-->
 <div class="row vcenter">
+  <% if user_signed_in? %>
   <%= link_to 'New hotel', new_hotel_path, class: "btn btn-warning" %>
-
-  <% cache ['store', Hotel.latest] do %>
-      <% @hotels.each do |hotel| %>
-          <% cache ['entry', hotel] do %>
-              <div class="col-sm-4">
-                <!--Image Card-->
-                <div class="card hoverable">
-                  <div class="card-image">
-                    <div class="view overlay hm-white-slight z-depth-1">
-                      <%= image_tag hotel.image_url, class: "img-responsive" %>
-                      <a href="#">
-                        <div class="mask waves-effect"></div>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="card-content">
-                    <h3>            <%= hotel.title %></h3>
-                    <p> <%= truncate(strip_tags(hotel.description),
-                                     length: 80) %></p>
-
-                  </div>
-                  <!--Buttons-->
-                  <div class="card-btn text-center">
-                    <p>          <%= link_to 'Show', hotel, class: "btn btn-default" %>
-                      <%= link_to 'Edit', edit_hotel_path(hotel), class: "btn btn-default" %>
-                      <%= link_to 'Destroy', hotel, method: :delete,
-                                  data: {confirm: 'Are you sure?'}, class: "btn btn-default" %>
-
-                    </p>
-                  </div>
-                  <!--/.Buttons-->
-                </div>
-                <!--Image Card-->
-              </div>
-          <% end %>
-      <% end %>
+  <% else %>
+  <% end %>
+  <% @hotels.each do |hotel| %>
+  <div class="col-sm-3">
+    <!--Image Card-->
+    <div class="card hoverable">
+      <div class="card-image">
+        <div class="view overlay hm-white-slight z-depth-1">
+          <%= image_tag hotel.image_url, class: "img-responsive" %>
+          <a href="#">
+            <div class="mask waves-effect"></div>
+          </a>
+        </div>
+      </div>
+      <div class="card-content">
+        <h3>            <%= hotel.title %></h3>
+        <p> <%= truncate(strip_tags(hotel.description),
+        length: 80) %></p>
+      </div>
+      <!--Buttons-->
+      <div class="card-btn text-center">
+        <% if user_signed_in? %>
+        <%= link_to 'Show', hotel, class: "btn btn-default" %>
+        <%= link_to 'Edit', edit_hotel_path(hotel), class: "btn btn-default" %>
+        <%= link_to 'Destroy', hotel, method: :delete,
+        data: {confirm: 'Are you sure?'}, class: "btn btn-default" %>
+        <% else %>
+        <%= link_to 'Show', hotel, class: "btn btn-default" %>
+        <% end %>
+      </div>
+      <!--/.Buttons-->
+    </div>
+    <!--Image Card-->
+  </div>
   <% end %>
   <!--Image Card-->
 </div>
-<!--/.catalog-->
