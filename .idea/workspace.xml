@@ -2,36 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afe1fb34-7dfb-414a-87ed-ca5a5e0f93f1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/cutwall.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/gradient.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vagrant.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/hotels/list.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/railways.cache" afterPath="$PROJECT_DIR$/.idea/railways.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/Development__tour_catalog.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Development__tour_catalog.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/Production__tour_catalog.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Production__tour_catalog.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/spec__tour_catalog.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/spec__tour_catalog.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/test__tour_catalog.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/test__tour_catalog.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/tour-catalog.iml" afterPath="$PROJECT_DIR$/.idea/tour-catalog.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/livereload.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/livereload.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/hotels_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/hotels_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/hotels/index.html.erb" afterPath="$PROJECT_DIR$/app/views/hotels/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/hotels/show.html.erb" afterPath="$PROJECT_DIR$/app/views/hotels/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_carousel.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_carousel.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_navbar.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_navbar.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/development.rb" afterPath="$PROJECT_DIR$/config/environments/development.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
     </list>
     <ignored path="tour-catalog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -993,7 +964,7 @@
       <workItem from="1462968388285" duration="1809000" />
       <workItem from="1463001071312" duration="24000" />
       <workItem from="1463001153169" duration="1072000" />
-      <workItem from="1463003165833" duration="16000" />
+      <workItem from="1463003165833" duration="157000" />
     </task>
     <task id="LOCAL-00002" summary="uidevv">
       <created>1461680579478</created>
@@ -1009,14 +980,28 @@
       <option name="project" value="LOCAL" />
       <updated>1462358467395</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="new design inject">
+      <created>1463003195365</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1463003195365</updated>
+    </task>
+    <task id="LOCAL-00005" summary="auth in">
+      <created>1463003269889</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1463003269889</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46619000" />
+    <option name="totallyTimeSpent" value="46760000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1203" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1203" height="1080" extended-state="1" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19160105" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -1075,7 +1060,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="uidevv" />
     <MESSAGE value="new design inject" />
-    <option name="LAST_COMMIT_MESSAGE" value="new design inject" />
+    <MESSAGE value="auth in" />
+    <option name="LAST_COMMIT_MESSAGE" value="auth in" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
