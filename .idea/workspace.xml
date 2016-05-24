@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="afe1fb34-7dfb-414a-87ed-ca5a5e0f93f1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_carousel.html.slim" afterPath="$PROJECT_DIR$/app/views/layouts/_carousel.html.slim" />
     </list>
     <ignored path="tour-catalog.iws" />
@@ -1780,7 +1779,7 @@
       <workItem from="1464006426643" duration="800000" />
       <workItem from="1464018064096" duration="2508000" />
       <workItem from="1464097780819" duration="258000" />
-      <workItem from="1464098437303" duration="10477000" />
+      <workItem from="1464098437303" duration="10493000" />
     </task>
     <task id="LOCAL-00002" summary="uidevv">
       <created>1461680579478</created>
@@ -1838,11 +1837,18 @@
       <option name="project" value="LOCAL" />
       <updated>1464108693071</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Deploy">
+      <created>1464118416538</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1464118416538</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139658000" />
+    <option name="totallyTimeSpent" value="139674000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1054" extended-state="0" />
