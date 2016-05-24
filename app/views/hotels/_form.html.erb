@@ -1,4 +1,5 @@
-<%= form_for(@hotel) do |f| %>
+
+<%= form_for(@hotel, :html =>{:class => "flex-item"}) do |f| %>
   <% if @hotel.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@hotel.errors.count, "error") %> prohibited this hotel from being saved:</h2>
@@ -11,23 +12,30 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= f.label :title %><br>
-    <%= f.text_field :title %>
+  <div class="flex-item mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+    <%= f.label :title,class: 'mdl-textfield__input' %><br>
+    <%= f.text_field :title,class: 'mdl-textfield__input' %>
   </div>
-  <div class="field">
-    <%= f.label :description %><br>
-    <%= f.text_area :description, row: 6 %>
+  <div class="flex-item mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+    <%= f.label :description,class: 'mdl-textfield__input' %><br>
+    <%= f.text_area :description, row: 6,class: 'mdl-textfield__input' %>
   </div>
-  <div class="field">
-    <%= f.label :image_url %><br>
-    <%= f.text_field :image_url %>
+  <div class="flex-item mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+    <%= f.label :image_url,class: 'mdl-textfield__input' %><br>
+    <%= f.text_field :image_url,class: 'mdl-textfield__input' %>
   </div>
-  <div class="field">
-    <%= f.label :price %><br>
-    <%= f.text_field :price %>
+  <div class="flex-item mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+    <%= f.label :price,class: 'mdl-textfield__input' %><br>
+    <%= f.text_field :price, class: 'mdl-textfield__input' %>
   </div>
   <div class="actions">
-    <%= f.submit %>
+      <%= f.submit class: "mdl-button mdl-js-button mdl-button--raised"; %>
+  </div>
+
   </div>
 <% end %>
+
+  </div>
+
+
+  </div>

@@ -1,9 +1,10 @@
+@charset "UTF-8";
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
-@import "mdb.css";
-@import "custom";
-@import "font-awesome.min";
-@import "mdb.min";
+@import "material";
+@import "persons";
+@import "hotels";
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
@@ -16,58 +17,116 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
 
- *= icons
- *= font-awesome.min
- *= mdb
- *= mdb.min
  *= jquery
- *= custom
+ *= material
+ *= persons
  *= require_tree .
  *= require_self
  *=
  */
-
-@media only screen and (min-width: 1200px) {
-  /* line 13, D:/DEV/tour-catalog/app/assets/stylesheets/mdb.min.css */
-  html {
-    font-size: 15px;
-  }
-  .container {
-      width: 1140px;
-  }
+body{
 }
-/* line 13, D:/DEV/tour-catalog/app/assets/stylesheets/mdb.min.css */
-p, h3 {
-  font-size: 1rem;
-  line-height: 1.8;
-}
-
-body {
-  background: url(cutwall.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
+header.mdl-layout__header{
+  background: #1e88e5;
   background-size: cover;
-  -o-background-size: cover;
 }
-#main_container {
-  background-color: (160, 236, 229, 0.12);
-}
-.full {
-  background: url(cutwall.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+main{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2em;
+    margin: 2em;
+    padding-top: 0em;
+    margin-top: 0em;
+    .flex-container{
+      background: rgba(114, 157,241,0.1);
+    }
 }
 
-//#gradient {
-//  background-image: url(gradient.jpg);
-//  background-repeat: no-repeat;
-//  background-position: inherit;
-//  height: 41px;
-//  opacity: 0.35;
-//}
+@media screen and (max-width: 1024px){
+  .mdl-layout__header {
+    display: flex;
+  }
+}
 
-footer.page-footer {
-  margin-top: 0px;
+p{
+  margin-bottom: 0px;
+}
+
+
+  .mdl-card__title-text{
+    padding: 0 0 0 0.5em;
+  }
+
+  .mdl-card__supporting-text{
+    padding: 0.5em;
+    width: 100%;
+  }
+
+
+.panel.panel-default {
+  background: #b3e5fc;
+}
+
+.panel-default > .panel-heading {
+  color: #333333;
+  background-color: #03a9f4;
+  border-color: #ddd;
+}
+
+.hotels-list.flex-container {
+
+  width: 100%;
+  padding: 2em;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+
+}
+
+.hotels-list.flex-item {
+      background: azure;
+  height: 100%;
+  color: #333333;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+  border: 1em;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  width: 300px;
+  img {
+    width: 300px;
+  }
+}
+
+.slider.flex-container{
+    display: inline-flex;
+    height: 500px;
+
+  .slider-img.flex-item img{
+    height: 500px;
+    width: 75em;
+  }
+}
+
+.slider-info.flex-item p > .slider-info.flex-item{
+  p{
+    font-size: 10px;
+  }
+}
+
+.new-sessions{
+  width: 100%;
+}
+
+.edit-user.flex-container{
+  width: 100%;
+    .flex-item{
+      width: 100%;
+    }
 }

@@ -1,9 +1,12 @@
 Rails.application.routes.draw do
+  resources :comments
   devise_for :users
-  get 'persons/profile'
-  get 'hotels/list'
 
-  resources :hotels
+  resources :hotels do
+    resource :comments
+  end
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

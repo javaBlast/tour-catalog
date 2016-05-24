@@ -1,10 +1,12 @@
 class HotelsController < ApplicationController
   before_action :set_hotel, only: [:show, :edit, :update, :destroy]
 
+
   # GET /hotels
   # GET /hotels.json
   def index
     @hotels = Hotel.all
+    @images = Dir.glob("app/assets/images/slider_img/*.jpg")
   end
 
   # GET /hotels/list
@@ -15,7 +17,10 @@ class HotelsController < ApplicationController
   # GET /hotels/1
   # GET /hotels/1.json
   def show
+    @hotel = Hotel.find(params[:id])
+    @comment = @hotel.comments.new
   end
+
 
   # GET /hotels/new
   def new

@@ -1,3 +1,8 @@
 // Place your settings in this file to overwrite default and user settings.
 {
+    "editor.fontFamily": "Monaco",
+    "launcher.terminal": {
+        "executable": "gnome-terminal"
+    },
+    "editor.tabSize": 8
 }

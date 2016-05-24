@@ -4,5 +4,8 @@
     <data-source name="Rails tour-catalog: development" uuid="5705d99c-fb98-40c9-9a01-2fc51a91f74c">
       <auth-required>false</auth-required>
     </data-source>
+    <data-source name="Rails tour-catalog: test" uuid="703f773f-523c-4efc-aee5-75f2b0a76ec2">
+      <auth-required>false</auth-required>
+    </data-source>
   </component>
 </project>

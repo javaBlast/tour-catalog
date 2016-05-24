@@ -14,7 +14,7 @@
 //= require bootstrap-sprockets
 //= require turbolinks
 //= require livereload
-//= require mdb
-//= require mdb.min
+//= require material
+//= require prof_tabs
 //= require_tree .
 
