@@ -7,7 +7,7 @@
       <imported>true</imported>
       <remarks>$PROJECT_DIR$/config/database.yml</remarks>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://127.0.0.1/d2ckh24pmm01v9</jdbc-url>
+      <jdbc-url>jdbc:postgresql://ec2-54-228-226-93.eu-west-1.compute.amazonaws.com/d2ckh24pmm01v9</jdbc-url>
       <explain-plan-config>
         <provider>com.intellij.database.plan.ExplainPlanProvider.NullExplainPlanProvider</provider>
       </explain-plan-config>
@@ -18,7 +18,7 @@
       <imported>true</imported>
       <remarks>$PROJECT_DIR$/config/database.yml</remarks>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://127.0.0.1/d2ckh24pmm01v9</jdbc-url>
+      <jdbc-url>jdbc:postgresql://ec2-54-228-226-93.eu-west-1.compute.amazonaws.com/d2ckh24pmm01v9</jdbc-url>
       <explain-plan-config>
         <provider>com.intellij.database.plan.ExplainPlanProvider.NullExplainPlanProvider</provider>
       </explain-plan-config>
