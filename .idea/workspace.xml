@@ -3,12 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="afe1fb34-7dfb-414a-87ed-ca5a5e0f93f1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/Development__tour_catalog.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Development__tour_catalog.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/tour-catalog.iml" afterPath="$PROJECT_DIR$/.idea/tour-catalog.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_carousel.html.slim" afterPath="$PROJECT_DIR$/app/views/layouts/_carousel.html.slim" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
     </list>
@@ -245,11 +242,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="108">
+              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -285,11 +282,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="database.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/database.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="222">
+              <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -415,8 +412,8 @@
         <option value="$PROJECT_DIR$/app/views/layouts/_carousel.html.slim" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/database.yml" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -750,7 +747,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="SearchEverywhereHistoryKey" value="dat&#9;FILE&#9;file:///media/serhii/ContentHDD/DEV/tour-catalog/config/database.yml&#10;gem&#9;FILE&#9;file:///media/serhii/ContentHDD/DEV/tour-catalog/Gemfile&#10;ap&#9;FILE&#9;file:///media/serhii/ContentHDD/DEV/tour-catalog/app/assets/stylesheets/application.css.scss&#10;hotel&#9;FILE&#9;file:///media/serhii/ContentHDD/DEV/tour-catalog/app/controllers/hotels_controller.rb&#10;index&#9;FILE&#9;file:///media/serhii/ContentHDD/DEV/tour-catalog/app/views/hotels/index.slim&#10;caro&#9;FILE&#9;file:///media/serhii/ContentHDD/DEV/tour-catalog/app/views/layouts/_carousel.html.erb&#10;edit&#9;FILE&#9;file:///media/serhii/ContentHDD/DEV/tour-catalog/app/views/devise/passwords/edit.html.erb&#10;show&#9;FILE&#9;file:///media/serhii/ContentHDD/DEV/tour-catalog/app/views/hotels/show.html.slim&#10;new&#9;FILE&#9;file:///media/serhii/ContentHDD/DEV/tour-catalog/app/views/devise/sessions/new.html.erb&#10;appli&#9;FILE&#9;file:///media/serhii/ContentHDD/DEV/tour-catalog/app/assets/stylesheets/application.css.scss&#10;_&#9;FILE&#9;file:///media/serhii/ContentHDD/DEV/tour-catalog/app/views/layouts/_navagations.slim&#10;profile&#9;FILE&#9;file:///media/serhii/ContentHDD/DEV/tour-catalog/app/views/persons/profile.html.slim&#10;applica&#9;FILE&#9;file://D:/DEV/tour-catalog/app/views/layouts/application.html.erb&#10;com&#9;FILE&#9;file://D:/DEV/tour-catalog/app/controllers/comments_controller.rb&#10;comm&#9;FILE&#9;file://D:/DEV/tour-catalog/app/assets/stylesheets/comments.scss&#10;rou&#9;FILE&#9;file://D:/DEV/tour-catalog/config/routes.rb&#10;rout&#9;ACTION&#9;ActivateRoutesToolWindow&#10;create_c&#9;FILE&#9;file://D:/DEV/tour-catalog/db/migrate/20160514081509_create_comments.rb&#10;comme&#9;FILE&#9;file://D:/DEV/tour-catalog/app/models/comment.rb&#10;hote&#9;FILE&#9;file://D:/DEV/tour-catalog/app/models/hotel.rb&#10;app&#9;FILE&#9;file://D:/DEV/tour-catalog/app/assets/stylesheets/application.css.scss&#10;Rou&#9;FILE&#9;file://D:/DEV/tour-catalog/config/routes.rb&#10;routes&#9;FILE&#9;file://D:/DEV/tour-catalog/config/routes.rb&#10;ge,&#9;FILE&#9;file://D:/DEV/tour-catalog/Gemfile&#10;live&#9;ACTION&#9;InsertLiveTemplate&#10;hotels&#9;FILE&#9;file://D:/DEV/tour-catalog/app/controllers/hotels_controller.rb" />
+    <property name="SearchEverywhereHistoryKey" value="gem&#9;FILE&#9;file:///media/serhii/ContentHDD/DEV/tour-catalog/Gemfile&#10;dat&#9;FILE&#9;file:///media/serhii/ContentHDD/DEV/tour-catalog/config/database.yml&#10;ap&#9;FILE&#9;file:///media/serhii/ContentHDD/DEV/tour-catalog/app/assets/stylesheets/application.css.scss&#10;hotel&#9;FILE&#9;file:///media/serhii/ContentHDD/DEV/tour-catalog/app/controllers/hotels_controller.rb&#10;index&#9;FILE&#9;file:///media/serhii/ContentHDD/DEV/tour-catalog/app/views/hotels/index.slim&#10;caro&#9;FILE&#9;file:///media/serhii/ContentHDD/DEV/tour-catalog/app/views/layouts/_carousel.html.erb&#10;edit&#9;FILE&#9;file:///media/serhii/ContentHDD/DEV/tour-catalog/app/views/devise/passwords/edit.html.erb&#10;show&#9;FILE&#9;file:///media/serhii/ContentHDD/DEV/tour-catalog/app/views/hotels/show.html.slim&#10;new&#9;FILE&#9;file:///media/serhii/ContentHDD/DEV/tour-catalog/app/views/devise/sessions/new.html.erb&#10;appli&#9;FILE&#9;file:///media/serhii/ContentHDD/DEV/tour-catalog/app/assets/stylesheets/application.css.scss&#10;_&#9;FILE&#9;file:///media/serhii/ContentHDD/DEV/tour-catalog/app/views/layouts/_navagations.slim&#10;profile&#9;FILE&#9;file:///media/serhii/ContentHDD/DEV/tour-catalog/app/views/persons/profile.html.slim&#10;applica&#9;FILE&#9;file://D:/DEV/tour-catalog/app/views/layouts/application.html.erb&#10;com&#9;FILE&#9;file://D:/DEV/tour-catalog/app/controllers/comments_controller.rb&#10;comm&#9;FILE&#9;file://D:/DEV/tour-catalog/app/assets/stylesheets/comments.scss&#10;rou&#9;FILE&#9;file://D:/DEV/tour-catalog/config/routes.rb&#10;rout&#9;ACTION&#9;ActivateRoutesToolWindow&#10;create_c&#9;FILE&#9;file://D:/DEV/tour-catalog/db/migrate/20160514081509_create_comments.rb&#10;comme&#9;FILE&#9;file://D:/DEV/tour-catalog/app/models/comment.rb&#10;hote&#9;FILE&#9;file://D:/DEV/tour-catalog/app/models/hotel.rb&#10;app&#9;FILE&#9;file://D:/DEV/tour-catalog/app/assets/stylesheets/application.css.scss&#10;Rou&#9;FILE&#9;file://D:/DEV/tour-catalog/config/routes.rb&#10;routes&#9;FILE&#9;file://D:/DEV/tour-catalog/config/routes.rb&#10;ge,&#9;FILE&#9;file://D:/DEV/tour-catalog/Gemfile&#10;live&#9;ACTION&#9;InsertLiveTemplate&#10;hotels&#9;FILE&#9;file://D:/DEV/tour-catalog/app/controllers/hotels_controller.rb" />
     <property name="nodejs_interpreter_path" value="C:\Program Files\nodejs\node" />
     <property name="js.buildTools.grunt.grunt-cli.package" value="" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="" />
@@ -911,7 +908,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Rails.Development: tour-catalog">
+  <component name="RunManager" selected="Heroku Deployment.Heroku Deployment">
     <configuration default="false" name="commontator:install: tour-catalog" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
       <module name="tour-catalog" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -1677,7 +1674,7 @@
       <workItem from="1464229396379" duration="616000" />
       <workItem from="1464235589907" duration="29000" />
       <workItem from="1464255421702" duration="80000" />
-      <workItem from="1464269849396" duration="119000" />
+      <workItem from="1464269849396" duration="2777000" />
     </task>
     <task id="LOCAL-00002" summary="uidevv">
       <created>1461680579478</created>
@@ -1749,50 +1746,57 @@
       <option name="project" value="LOCAL" />
       <updated>1464118428986</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Deploy">
+      <created>1464270148924</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1464270148924</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142199000" />
+    <option name="totallyTimeSpent" value="144857000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1922" height="1047" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="RemoteSynchronizer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22402598" sideWeight="0.5066751" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.65947115" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.34710744" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.6528926" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22402598" sideWeight="0.49332485" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Routes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37560713" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2608225" sideWeight="0.4761602" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16061899" sideWeight="0.6039501" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Regex" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Analysis" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17235859" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39770356" sideWeight="0.5487122" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="RemoteSynchronizer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22402598" sideWeight="0.49332485" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Routes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37560713" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33549783" sideWeight="0.70372367" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2608225" sideWeight="0.4736173" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16061899" sideWeight="0.6039501" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Analysis" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14674494" sideWeight="0.3960499" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39770356" sideWeight="0.5487122" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Plugins" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15666667" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295099" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33583692" sideWeight="0.70372367" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32725322" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -2121,18 +2125,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="222">
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="108">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
           <folding />
         </state>
       </provider>
